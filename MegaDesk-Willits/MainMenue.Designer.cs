@@ -42,6 +42,7 @@
             this.AddNewQuote.TabIndex = 0;
             this.AddNewQuote.Text = "Add New Quote";
             this.AddNewQuote.UseVisualStyleBackColor = true;
+            this.AddNewQuote.Click += new System.EventHandler(this.AddNewQuote_Click);
             // 
             // ViewQuotes
             // 
@@ -51,6 +52,7 @@
             this.ViewQuotes.TabIndex = 1;
             this.ViewQuotes.Text = "View Quotes";
             this.ViewQuotes.UseVisualStyleBackColor = true;
+            this.ViewQuotes.Click += new System.EventHandler(this.ViewQuotes_Click);
             // 
             // SearchQuotes
             // 
@@ -69,6 +71,7 @@
             this.Exit.TabIndex = 3;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // MegaDesk
             // 
@@ -81,6 +84,7 @@
             this.Controls.Add(this.AddNewQuote);
             this.Name = "MegaDesk";
             this.Text = "MegaDesk";
+            this.Load += new System.EventHandler(this.MegaDesk_Load);
             this.ResumeLayout(false);
 
         }

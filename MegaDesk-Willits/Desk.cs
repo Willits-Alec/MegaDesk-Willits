@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MegaDesk_Willits
 {
-    class Desk
+    public class Desk
     {
+
     }
 }
