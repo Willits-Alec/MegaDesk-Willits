@@ -19,6 +19,18 @@ namespace MegaDesk_Willits
             InitializeComponent();
 
             _mainMenue = mainMenue;
+
+            //populate serfacematerial combo box
+            List<DeskTopMaterial> materials = Enum.GetValues(typeof(DeskTopMaterial))
+                .Cast<DeskTopMaterial>()
+                .ToList();
+
+            ServiceMaterial.DataSource = materials;
+
+            //set default value to empty
+            ServiceMaterial.SelectedIndex = -1;
+
+
         }
 
         private void AddQuote_Load(object sender, EventArgs e)
