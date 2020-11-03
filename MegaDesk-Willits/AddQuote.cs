@@ -21,8 +21,8 @@ namespace MegaDesk_Willits
             _mainMenue = mainMenue;
 
             //populate serfacematerial combo box
-            List<DeskTopMaterial> materials = Enum.GetValues(typeof(DeskTopMaterial))
-                .Cast<DeskTopMaterial>()
+            List<DesktopMaterial> materials = Enum.GetValues(typeof(DesktopMaterial))
+                .Cast<DesktopMaterial>()
                 .ToList();
 
             ServiceMaterial.DataSource = materials;
@@ -32,6 +32,15 @@ namespace MegaDesk_Willits
 
 
         }
+
+       /* private void SaveQuote_Click(object sender, EventArgs e)
+        {
+            var newDesk = new Desk();
+
+            newDesk.depth = numDeskDepth.Value;
+            newDesk.depth = numDeskWidth.Value;
+
+        }*/
 
         private void AddQuote_Load(object sender, EventArgs e)
         {

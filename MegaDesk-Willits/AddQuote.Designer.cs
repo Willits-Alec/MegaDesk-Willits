@@ -101,12 +101,6 @@
             // ServiceMaterial
             // 
             this.ServiceMaterial.FormattingEnabled = true;
-            this.ServiceMaterial.Items.AddRange(new object[] {
-            "Laminate",
-            "Oak",
-            "Rosewood",
-            "Veneer",
-            "Pine"});
             this.ServiceMaterial.Location = new System.Drawing.Point(589, 184);
             this.ServiceMaterial.Name = "ServiceMaterial";
             this.ServiceMaterial.Size = new System.Drawing.Size(125, 28);

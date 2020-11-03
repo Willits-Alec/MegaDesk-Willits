@@ -12,9 +12,14 @@ namespace MegaDesk_Willits
 {
     public partial class DisplayQuote : Form
     {
-        public DisplayQuote()
+        private Form _mainMenue;
+
+     /*   public DisplayQuote()
         {
             InitializeComponent();
-        }
+            _mainMenue = MainMenu;
+
+            loadGrid();
+        } */
     }
 }
